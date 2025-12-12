@@ -1,0 +1,80 @@
+.volunteerForm {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+
+  .formContainer {
+    background: #fff;
+    width: 80%;
+    max-width: 1200px;
+    padding: 2.5rem 3rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+
+    h2 {
+      text-align: left;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      .formSection {
+        h3 {
+          font-size: 1.2rem;
+          margin-bottom: 0.8rem;
+        }
+
+        .inputRow {
+          display: flex;
+          gap: 1rem;
+          margin-bottom: 1rem; 
+        }
+
+        input {
+          width: 100%; 
+          padding: 1rem;
+          border-radius: 8px;
+          border: 1px solid #000;
+          font-size: 1rem;
+          background-color: #f1f1f1;
+        }
+
+        textarea {
+          width: 100%;
+          min-height: 180px;
+          padding: 1rem;
+          border-radius: 8px;
+          border: 1px solid #000;
+          font-size: 1rem;
+          background-color: #f1f1f1;
+        }
+      }
+
+      .infoNote {
+        text-align: center;
+        font-size: 1rem;
+        color: #444;
+      }
+
+      .submitBtn {
+        align-self: center;       
+        padding: 0.9rem 2rem;
+        background-color: #00745A;
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+        font-size: 1.1rem;       
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+          background-color: #064939;
+        }
+      }
+    }
+  }
+}
