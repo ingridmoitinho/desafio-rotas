@@ -1,0 +1,62 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    gap: 3rem;
+
+    .content {
+        max-width: 480px;
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 1.5rem 0;
+            color: #000;
+            text-shadow: 2px 4px #c7c7c7;
+        }
+
+        p {
+            font-size: 1.3rem;
+            color: #444;
+            line-height: 1.6;
+            margin: 2rem 0;
+            text-align: justify;
+        }
+
+        .buttonGroup {
+            display: flex;
+            gap: 2rem;
+
+            .primaryBtn {
+                padding: 12px 24px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1rem;
+                background-color: #00745A;
+                color: #fff;
+
+                &:hover {
+                    background-color: #064939;
+                }
+            }
+
+            .secondaryBtn {
+                padding: 12px 24px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1rem;
+                border: 2px solid #00745A;
+                color: #00745A;
+
+                &:hover {
+                    border: 2px solid #064939;
+                    color: #064939;
+                }
+            }
+        }
+    }
+}
