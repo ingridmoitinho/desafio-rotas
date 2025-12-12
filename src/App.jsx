@@ -3,6 +3,7 @@ import './globalStyle.scss'
 import Header from './components/header/Header'
 import Home from  './pages/home/Home'
 import Voluntario from './pages/voluntario/Voluntario'
+import Footer from "./components/footer/Footer"
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/voluntario' element={<Voluntario />} />
-    </Routes>   
+    </Routes>  
+    <Footer /> 
    </BrowserRouter>        
     </>
   )
